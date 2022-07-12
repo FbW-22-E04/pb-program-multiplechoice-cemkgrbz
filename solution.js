@@ -72,7 +72,7 @@ if (percentageComplete < 30) {
     console.log("Q4: You can do it!")
 } else if (percentageComplete >=81 && percentageComplete <= 99) {
     console.log("Q4: This is the last push!")
-} else {
+} else if (percentageComplete == 100){
     console.log("Q4: You're there. Well done!")
 }
 
